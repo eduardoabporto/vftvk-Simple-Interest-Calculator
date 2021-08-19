@@ -1,4 +1,58 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color:grey;
+}
 
+.calc{
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 370px;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.row {
+    clear: both;
+  }
+  
+  .column-3 {    
+      width: 25%;    
+  }
+
+  .column-5 {    
+    width: 40%;    
+}
+  
+  .column-9 {    
+      width: 75%;    
+  }
+  
+  .label {
+      padding-top: 7px;
+      text-align: left;    
+  }
+  
+  .label:after {
+      padding-right: 5px;
+  }
+  
+  .column {
+      float: left;
+      height: 41px;    
+  }
+  
+  .input input {
+      width: 70%;
+      height: 20px;    
+      padding-left: 5px;
+      box-sizing: content-box;
+      
 
